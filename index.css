@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    text-align: center;
+    
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background: #1B244A;
+    width: 498px;
+   
+}
+h3 {
+    margin-top: 68px;
+    margin-bottom: 0px;
+    font-family: Verdana;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+    vertical-align: top;
+    width: 149px;
+    height: 36px;
+}
+#home-score-el, #guest-score-el{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    border: 0px solid #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: cursed timer ULiL;
+    font-size: 90px;
+    line-height: 126.67px;
+    vertical-align: Top;
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+.increase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 69px;;
+        
+}
+
+.increase > button {
+    height: 45px;
+    width: 45px;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+}
